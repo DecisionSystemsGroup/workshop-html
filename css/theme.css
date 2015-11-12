@@ -1,0 +1,36 @@
+body{
+  background-color: rgb(212, 212, 212);
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#container{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:600px;
+}
+
+#profile-image img{
+  width: 175px;
+  float: left;
+  margin: 0px 10px 0px 0px;
+  border-radius: 50%;
+}
+
+#title{
+  font-size: 30px;
+}
+
+#subtitle{
+  font-size: 20px;
+  margin-top: -25px;
+}
+
+#title, #subtitle{
+  font-weight: bolder;
+  color: rgb(46, 46, 46);
+}
+
+#education{
+  display: block;
+}
