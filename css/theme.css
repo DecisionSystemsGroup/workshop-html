@@ -36,7 +36,7 @@ body{
 }
 
 #profile-image img{
-  width: 175px;
+  width: 200px;
   float: left;
   margin: 0px 10px 0px 0px;
   border-radius: 50%;
@@ -62,12 +62,17 @@ body{
 }
 
 #education{
+  clear: both;
   float: left;
   padding-right: 2%;
 }
 #skills{
   float: right;
   padding-left: 2%;
+}
+
+#experience{
+  clear: both;
 }
 
 .list span{
