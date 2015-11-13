@@ -89,3 +89,14 @@ body{
    bottom: 0pt;
    color: rgb(148, 148, 148);
 }
+
+#footer ul{
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2px 0px 5px 0px;
+}
+#footer ul li{
+	display: inline;
+	padding: 0px 2px 0px 2px;
+}
