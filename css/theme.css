@@ -1,7 +1,7 @@
 html, body{ width: 100%; margin: 0; padding: 0;}
 
 body{
-  background-color: rgb(238, 238, 238);
+  background-color: #eee;
   font-family: 'Ubuntu', sans-serif;
   font-size: 20px;
 }
@@ -12,7 +12,7 @@ body{
   top: 0;
   margin-top: -30px;
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
   background-color: rgba(56, 56, 56, 0.95);
 }
 #menu ul{
@@ -20,7 +20,7 @@ body{
 }
 #menu ul li{
   display: inline;
-  padding: 0px 2px 0px 2px;
+  padding: 0px 15px 0px 15px;
 }
 
 #menu ul li a:link, #menu ul li a:visited, #menu ul li a:hover, #menu ul li a:active {
@@ -118,6 +118,21 @@ body{
   text-decoration: none;
 }
 #footer ul li a:hover{
+  color: #505050;
+  text-decoration: none;
+}
+
+#backToTop{
+	position: fixed;
+	bottom: 5px;
+	right: 5px;
+	color: tomato;
+}
+#backToTop a:link, #backToTop a:visited, #backToTop a:active{
+	color: #949494;
+  text-decoration: none;
+}
+#backToTop a:hover{
   color: #505050;
   text-decoration: none;
 }
