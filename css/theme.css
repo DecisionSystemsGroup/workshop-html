@@ -1,6 +1,31 @@
 body{
-  background-color: rgb(212, 212, 212);
+  background-color: rgb(238, 238, 238);
   font-family: 'Ubuntu', sans-serif;
+}
+
+#menu{
+  width: 100%;
+  position: sticky;
+  top: 0;
+  margin-top: -30px;
+  text-align: center;
+  font-size: 30px;
+  background-color: rgba(56, 56, 56, 0.95);
+}
+#menu ul{
+  padding: 2px 0px 5px 0px;
+}
+#menu ul li{
+  display: inline;
+  padding: 0px 2px 0px 2px;
+}
+
+#menu ul li a:link, #menu ul li a:visited, #menu ul li a:hover, #menu ul li a:active {
+    color: rgb(226, 226, 226);
+    text-decoration: none;
+}
+#menu ul li a:hover{
+  color: rgb(186, 186, 186);
 }
 
 #container{
@@ -31,6 +56,27 @@ body{
   color: rgb(46, 46, 46);
 }
 
-#education{
+#education, #skills{
   display: block;
+  width: 46%;
+}
+
+#education{
+  float: left;
+  padding-right: 2%;
+}
+#skills{
+  float: right;
+  padding-left: 2%;
+}
+
+.list span{
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+}
+
+#footer{
+	position:absolute;
+	bottom:10px;
 }
