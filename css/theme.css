@@ -93,12 +93,12 @@ body{
   font-size: 18px;
 }
 #footer {
+  display: block;
   bottom: 0;
   color: #949494;
-  margin-top: 80px;
   margin-bottom: -30px;
-   background-color: rgb(56, 56, 56);
   text-align: center;
+  margin-top: 70px;
 }
 
 #footer ul{
