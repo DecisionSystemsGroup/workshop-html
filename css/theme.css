@@ -24,11 +24,11 @@ body{
 }
 
 #menu ul li a:link, #menu ul li a:visited, #menu ul li a:hover, #menu ul li a:active {
-    color: rgb(226, 226, 226);
+    color: #e2e2e2;
     text-decoration: none;
 }
 #menu ul li a:hover{
-  color: rgb(186, 186, 186);
+  color: #bababa;
 }
 
 #container{
@@ -56,7 +56,7 @@ body{
 
 #title, #subtitle{
   font-weight: bolder;
-  color: rgb(46, 46, 46);
+  color: #2e2e2e;
 }
 
 #education, #skills{
@@ -84,12 +84,12 @@ body{
 
 .list span{
   font-weight: bolder;
-  color: rgb(0, 0, 0);
+  color: #000000;
   font-size: 18px;
 }
 #footer {
-   bottom: 0pt;
-   color: rgb(148, 148, 148);
+  bottom: 0pt;
+  color: #949494;
 }
 
 #footer ul{
@@ -105,10 +105,10 @@ body{
 }
 
 #footer ul li a:link, #footer ul li a:visited, #footer ul li a:active{
-	color: rgb(148, 148, 148);
-    text-decoration: none;
+	color: #949494;
+  text-decoration: none;
 }
 #footer ul li a:hover{
-	color: rgb(80, 80, 80);	
-    text-decoration: none;
+  color: #505050;
+  text-decoration: none;
 }
