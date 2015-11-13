@@ -45,16 +45,16 @@ body{
   border-radius: 50%;
 }
 
-#title{
+.title{
   font-size: 30px;
 }
 
-#subtitle{
+.subtitle{
   font-size: 20px;
   margin-top: -25px;
 }
 
-#title, #subtitle{
+.title, .subtitle{
   font-weight: bolder;
   color: #2e2e2e;
 }
