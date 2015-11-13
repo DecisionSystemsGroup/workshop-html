@@ -59,10 +59,15 @@ body{
   color: #2e2e2e;
 }
 
-#education, #skills{
+#education{
   display: block;
-  width: 46%;
+  width: 63%;
 }
+#skills{
+  display: block;
+  width: 33%;
+}
+
 
 #education{
   clear: both;
