@@ -12,14 +12,14 @@ body{
   margin: 0px 10px 0px 0px;
   border-radius: 50%;
 }
-.title{
+h1{
   font-size: 30px;
 }
-.subtitle{
+h3{
   font-size: 20px;
   margin-top: -25px;
 }
-.title, .subtitle{
+h1, h3{
   font-weight: bolder;
   color: #2e2e2e;
 }
