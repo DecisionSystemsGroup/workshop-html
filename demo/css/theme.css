@@ -1,0 +1,106 @@
+html, body{ 
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 18px;
+	background-color: #e1e1e1;
+}
+h1{
+  font-size: 30px;
+}
+h3{
+  font-size: 20px;
+  margin-top: -25px;
+}
+h1, h3{
+  font-weight: bolder;
+  color: #2e2e2e;
+}
+.menu{
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	text-align: center;
+	background-color: rgba(37,37,37,0.9);
+}
+.menu ul li{
+	display: inline;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 22px;
+	font-weight: bold;
+}
+.menu ul li a:link, .menu ul li a:visited, .menu ul li a:active {
+    color: #e2e2e2;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+  color: #bababa;
+}
+#container{
+	display: block;	
+	width: 800px;
+	margin-top: 95px;
+	margin-left: auto;
+  	margin-right: auto;
+}
+#profile-picture img{
+	width: 230px;
+	float: left;
+	border-radius: 50%;
+	padding: 0px 15px 0px 0px;
+}
+#experience, #projects{
+	clear: both;
+	margin-top: 100px;
+}
+#education{
+	clear: both;
+	width: 63%;
+	float: left;
+}
+#skills{
+	width: 33%;
+	float: right;
+}
+.list span{
+  font-weight: bolder;
+  color: #000000;
+  font-size: 18px;
+}
+footer{
+	text-align: center;
+}
+footer ul{		
+	padding: 0px;
+}
+footer ul li{
+	display: inline;
+}
+footer ul li a:link, footer ul li a:visited, footer ul li a:active{
+ 	color: #949494;
+  	text-decoration: none;
+}
+footer ul li a:hover{
+  	color: #505050;
+  	text-decoration: none;
+}
+#back-to-top{
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  color: tomato;
+}
+#back-to-top a:link, #back-to-top a:visited, #back-to-top a:active{
+	color: #949494;
+  text-decoration: none;
+}
+#back-to-top a:hover{
+  color: #505050;
+  text-decoration: none;
+}
