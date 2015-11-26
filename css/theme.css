@@ -1,0 +1,89 @@
+html, body{width:100%; margin:0; padding:0;}
+body{
+	background-color: #e1e1e1;
+	font-family: 'Ubuntu', sans-serif;
+}
+nav{
+	position: fixed;
+	background-color: rgba(37,37,37,0.95);
+	width: 100%;
+	top:0px;
+}
+nav ul{
+	text-align: center;
+}
+nav ul li{
+	display: inline;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+nav ul li a:link, nav ul li a:active, nav ul li a:visited{
+	color: #eee;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+}
+nav ul li a:hover{
+	color:#fff;
+}
+#container{
+	display: block;
+	width: 600px;
+	margin-top: 95px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#intro img {
+	width: 200px;
+	border-radius: 50%;
+	float: left;
+	#margin: 0px 15px 0px 0px;
+	margin-right: 15px;
+}
+#intro h3{
+	margin-top: -25px;
+}
+#education{
+	width: 63%;
+	float:left;
+	clear: both;
+	padding-top: 10px;
+}
+#skills{
+	width: 33%;
+	float: right;
+}
+span{
+	font-weight: bold;
+}
+footer{
+	margin-top: 30px;
+}
+footer ul {
+	text-align: center;
+}
+footer ul li{
+	display: inline;
+}
+footer ul li a:link, footer ul li a:active, footer ul li a:visited{
+	color: rgb(50,50,50);
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+}
+footer ul li a:hover{
+	color: rgb(80,80,80);
+}
+#back-to-top{
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+}
+#back-to-top a:link, #back-to-top a:visited, #back-to-top a:active{
+	color: #949494;
+  text-decoration: none;
+}
+#back-to-top a:hover{
+  color: #505050;
+  text-decoration: none;
+}
